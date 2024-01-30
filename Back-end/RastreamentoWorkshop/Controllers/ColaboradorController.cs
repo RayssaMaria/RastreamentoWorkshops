@@ -42,7 +42,7 @@ namespace RastreamentoWorkshop.Controllers
         }
 
         // PUT: api/Colaborador/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+
         [HttpPut("{id}")]
         public async Task<IActionResult> PutColaborador(int id, ColaboradorDTO colaboradorDTO)
         {
@@ -71,7 +71,6 @@ namespace RastreamentoWorkshop.Controllers
         }
 
         // POST: api/Colaborador
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<ColaboradorDTO>> PostColaborador(ColaboradorDTO colaboradorDTO)
         {
