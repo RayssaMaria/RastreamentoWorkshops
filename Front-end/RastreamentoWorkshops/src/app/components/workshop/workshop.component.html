@@ -1,0 +1,33 @@
+
+<html>
+    <header>
+        <div class="logo">
+            <a href="/">
+            <img src="../../../assets/FAST-LOGO-33.svg" alt="logo-fast">
+        </a>
+        </div>
+    </header>
+
+<h1>Workshops</h1>
+<link rel="stylesheet" href="workshop.component.css">
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Data de realização</th>
+            <th>Descrição</th>
+            <th>Colaboradores Participantes</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let workshop of workshops">
+        <td>{{ workshop.id }}</td>
+        <td>{{ workshop.nome }}</td>
+        <td>{{ workshop.dataRealizacao | date: 'dd/MM/yyyy HH:mm:ss' }}</td>
+        <td>{{ workshop.descricao }}</td>
+        <td>{{ workshop.colaboradores }}</td>
+    </tr>
+    </tbody>
+</table>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:wght@500;600;800&display=swap');
+
+html {
+    background-color: #001426;
+}
+
+header {            
+    height: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#030f1a, #01223f);
+    padding: 3rem 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.logo img {
+    
+    top: 1px;
+    width: 100px;
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 180px;
+    color: #fff;
+}
+
+
+nav {
+    padding: 5vh;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item a {
+    cursor: pointer;
+    padding: 1px;
+    position: relative;
+    top: 80%;
+    right: 15%;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item img {
+    width: 20vw;
+    height: 30vh;
+    position: relative;
+    top: -70px; /* Half the image height to position it exactly above the link */
+    left: 10%;
+    justify-content: space-between;
+}
+
+/* nav {
+    background-color: #69B99D;
+    padding: 100px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.nav-item a {
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.nav-item img {
+    width: 200px;
+    height: 120px;
+    margin-left: 10px;
+    position: relative;
+} */

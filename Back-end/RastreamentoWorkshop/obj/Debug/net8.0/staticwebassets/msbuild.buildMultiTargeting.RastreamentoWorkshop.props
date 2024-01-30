@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/RastreamentoWorkshop.props" />
+</Project>
