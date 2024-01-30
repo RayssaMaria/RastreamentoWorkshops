@@ -66,5 +66,5 @@ ng serve
 
 **Back-end:**
 ```
-dotnet run --urls http://localhost:8090
+dotnet watch run --urls http://localhost:8090
 ```
