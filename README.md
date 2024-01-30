@@ -3,7 +3,7 @@
 ## 🚀 Introdução
 
 **Front-end:**
-* Aplicação em Angular para analisar e rastrear a participação dos colaboradores nos workshops trimestrais de uma empresa.
+* Aplicação em Angular para analisar e rastrear a participação dos colaboradores nos workshops de uma empresa.
   
 <br/>
 
