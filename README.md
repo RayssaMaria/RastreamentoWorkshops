@@ -57,7 +57,6 @@ dotnet tool install --global dotnet-ef --version 8
 
 ### 🔨 Como rodar o projeto em sua máquina:
 
-Explique aqui um passo a passo mostrando como deve executar para ter um ambiente de desenvolvimento em execução, desde instalar e rodar o projeto.
 
 **Front-end:**
 ```
