@@ -35,7 +35,7 @@
 
 ## ⚙️ Pré-requisitos
 
-Pré-requisitos fundamentais:
+Packages fundamentais:
 
 **Back-end:**
 ```
