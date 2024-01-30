@@ -42,7 +42,6 @@ namespace WorkShopApp.Controllers
         }
 
         // PUT: api/Workshop/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutWorkshop(int id, WorkshopDTO workshopDTO)
         {
@@ -79,7 +78,6 @@ namespace WorkShopApp.Controllers
         }
 
         // POST: api/Workshop
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<WorkshopDTO>> PostWorkshop(WorkshopDTO workshopDTO)
         {
